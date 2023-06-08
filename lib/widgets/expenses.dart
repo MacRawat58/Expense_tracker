@@ -31,7 +31,7 @@ class _ExpensesState extends State<Expenses> {
           "hello",
           style: TextStyle(color: Colors.black),
         ),
-        Expanded(child: ExpensesList(expenses: _registeredExpenses))
+        Expanded(child: ExpensesList(_registeredExpenses))
       ]),
     );
   }
