@@ -15,6 +15,6 @@ class Expense {
     required this.title,
     required this.amount,
     required this.date,
-    required this.category,  
+    required this.category,
   }) : id = uuid.v4();
 }
